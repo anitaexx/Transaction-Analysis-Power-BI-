@@ -1,0 +1,26 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-CA
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["Transactions_Professional","PII_Customers"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.142.1277.0 (25.04)+014fde450f93691fc9537f0758d73d1c5df153ef
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Transactions_Professional
+ref table DateTableTemplate_7d9cf367-3bad-42f2-a20e-ae508aac27d5
+ref table PII_Customers
+ref table LocalDateTable_bdb070ba-a30a-4407-a80d-826ca46c2500
+ref table LocalDateTable_a5ba1c9f-241f-4865-92d1-f7ba97a10a46
+ref table Date_table
+ref table LocalDateTable_d580d02f-f781-4ff7-978a-ce0294149dbf
+
+ref cultureInfo en-US
+

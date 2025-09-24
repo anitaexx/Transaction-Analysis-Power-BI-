@@ -1,0 +1,35 @@
+table Date_table
+	lineageTag: 0e8c88ab-75ab-4711-bf59-7bb633486283
+
+	column Date
+		formatString: General Date
+		lineageTag: 970e279c-b1ea-413d-93b1-978906823693
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		variation Variation
+			isDefault
+			relationship: c93650e1-e650-4bf2-a4d1-c1f906e53b39
+			defaultHierarchy: LocalDateTable_d580d02f-f781-4ff7-978a-ce0294149dbf.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column YearMonth = FORMAT(Date_table[Date], "YYYY-MM")
+		lineageTag: 1de904ea-f214-4f20-9c43-e9347280e6ea
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column MonthName = FORMAT(Date_table[Date], "MMM YYYY")
+		lineageTag: f73100c8-af03-4c6b-adc2-2f20e2e903c2
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Date_table = calculated
+		mode: import
+		source = CALENDAR(DATE(2022, 1, 1), DATE(2025, 12, 31))
+
+	annotation PBI_Id = 53dec1df39d141f5aa0a1f7d73049bae
+

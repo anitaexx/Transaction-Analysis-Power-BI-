@@ -1,0 +1,5602 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "transactions_professional": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Transactions_Professional"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transactions professional": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction professional": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Transactions_Professional": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "professional": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "expert": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "career": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "transaction authority": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "transaction maven": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "authority": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "maven": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "transaction specialist": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "transaction expert": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "transaction pro": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "specialist": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "transactions_professional.transaction_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Transactions_Professional",
+			          "ConceptualProperty": "transaction_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transaction id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "transaction": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "transaction identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "transaction identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "transaction identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "transaction credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "operation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "deal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "business": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contract": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "matter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "Transaction Number": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "transactions_professional.transaction_datetime": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Transactions_Professional",
+			          "ConceptualProperty": "transaction_datetime"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transaction datetime": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "transaction_datetime": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "Transaction Date": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "transactions_professional.sender_account_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Transactions_Professional",
+			          "ConceptualProperty": "sender_account_number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "sender account number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sender_account_number": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "sender account no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "transactions_professional.receiver_account_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Transactions_Professional",
+			          "ConceptualProperty": "receiver_account_number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "receiver account number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "receiver_account_number": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "receiver account no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "transactions_professional.amount": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Transactions_Professional",
+			          "ConceptualProperty": "amount"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "amount": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "volume": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "expanse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "transactions_professional.payment_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Transactions_Professional",
+			          "ConceptualProperty": "payment_type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "payment type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "payment_type": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "payment category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "payment genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "payment manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "payment variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "payment brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "payment class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "transactions_professional.sender_bank_country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Transactions_Professional",
+			          "ConceptualProperty": "sender_bank_country"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sender bank country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sender_bank_country": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "bank country": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "sender bank nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "sender bank location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "bank nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "bank location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "transactions_professional.receiver_bank_country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Transactions_Professional",
+			          "ConceptualProperty": "receiver_bank_country"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "receiver bank country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "receiver_bank_country": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "bank country": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "receiver bank nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "receiver bank location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "bank nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "bank location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "transactions_professional.payment_currency": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Transactions_Professional",
+			          "ConceptualProperty": "payment_currency"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "payment currency": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "payment_currency": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "currency": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "payment money": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "payment coinage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "money": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "coinage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "payment exchange": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "payment cash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "exchange": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "payment prevalence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "payment frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "transactions_professional.receiver_currency": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Transactions_Professional",
+			          "ConceptualProperty": "receiver_currency"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "receiver currency": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "receiver_currency": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "currency": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "receiver money": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "receiver coinage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "money": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "coinage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "receiver exchange": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "receiver cash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "exchange": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "receiver prevalence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "receiver frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "transactions_professional.channel": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Transactions_Professional",
+			          "ConceptualProperty": "channel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "channel": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "station": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "network": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "conduit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "waterway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "canal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "strait": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "passage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "transactions_professional.remark": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Transactions_Professional",
+			          "ConceptualProperty": "remarks"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "remark": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "statement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "observation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "comment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "aside": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mention": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "quip": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "transactions_professional.suspicious_flag": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Transactions_Professional",
+			          "ConceptualProperty": "SuspiciousFlag"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "suspicious flag": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SuspiciousFlag": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "flag": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "suspicious ensign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "suspicious pennant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "suspicious pennon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "suspicious emblem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "suspicious streamer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ensign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pennant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pennon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "emblem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "streamer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "transactions_professional.total_suspicious_flag_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Transactions_Professional",
+			          "ConceptualProperty": "TotalSuspiciousFlag2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total suspicious flag 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TotalSuspiciousFlag2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "aggregate suspicious flag 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "overall suspicious flag 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "PII_customer": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PII_Customers"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "PII customer": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PII_Customers": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "customer": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "pii client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "pii consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "pii user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "pii buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "pii patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "pii purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "pii shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "PII_customer.account_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PII_Customers",
+			          "ConceptualProperty": "account_number"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "account number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "account_number": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "account no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "PII_customer.full_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PII_Customers",
+			          "ConceptualProperty": "full_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "full name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "name": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "full_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "full nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "full title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "full label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "full tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "full surname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "complete name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "entire name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "whole name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "full given name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "Customer Name": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "PII_customer.dob": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PII_Customers",
+			          "ConceptualProperty": "dob"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dob": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "PII_customer.dob.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PII_Customers",
+			          "VariationSource": "dob",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dob date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "PII_customer.dob.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PII_Customers",
+			          "VariationSource": "dob",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dob year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dob yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "PII_customer.dob.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PII_Customers",
+			          "VariationSource": "dob",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dob quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dob qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "PII_customer.dob.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PII_Customers",
+			          "VariationSource": "dob",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dob month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dob mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "PII_customer.dob.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PII_Customers",
+			          "VariationSource": "dob",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dob day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "PII_customer.country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PII_Customers",
+			          "ConceptualProperty": "country"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "PII_customer.risk_score": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PII_Customers",
+			          "ConceptualProperty": "risk_score"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "risk score": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "risk_score": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "score": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "risk notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "risk slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "risk groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "risk nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "risk cut": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "risk mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "notch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "slash": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "groove": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "nick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "PII_customer.account_open_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PII_Customers",
+			          "ConceptualProperty": "account_open_date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "account open date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "account_open_date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "open date": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "account open moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "open moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "account open period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "open period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "PII_customer.account_open_date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PII_Customers",
+			          "VariationSource": "account_open_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "account open date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "open date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "PII_customer.account_open_date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PII_Customers",
+			          "VariationSource": "account_open_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "account open year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "account open date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "open year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "open date year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "account open date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "account open yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "open date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "open yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "account open moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "open moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "account open period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "open period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "PII_customer.account_open_date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PII_Customers",
+			          "VariationSource": "account_open_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "account open quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "account open date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "open quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "open date quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "account open date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.857
+			          }
+			        },
+			        {
+			          "account open qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "open date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "open qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "account open moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "open moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "account open period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "open period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "PII_customer.account_open_date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PII_Customers",
+			          "VariationSource": "account_open_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "account open month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "account open date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "open month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "open date month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "account open date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "account open mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "open date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "open mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "account open moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "open moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "account open period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "open period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "PII_customer.account_open_date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PII_Customers",
+			          "VariationSource": "account_open_date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "account open day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "account open date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "open day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "open date day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "account open moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "open moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "account open period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "open period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "transactions_professional.cross_border": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Transactions_Professional",
+			          "ConceptualProperty": "CrossBorder"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cross border": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CrossBorder": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "border": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cross boundary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "cross perimeter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "cross periphery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "cross circumference": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "boundary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "perimeter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "periphery": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "circumference": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "cross edge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "cross limit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "transactions_professional.suspicious_transaction_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Transactions_Professional",
+			          "ConceptualProperty": "SuspiciousTransactionCount"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "suspicious transaction count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SuspiciousTransactionCount": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "transaction count": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "suspicious transaction amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "transaction amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Flagged Transaction Count": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "transactions_professional.total_suspicious_volume": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Transactions_Professional",
+			          "ConceptualProperty": "TotalSuspiciousAmount"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total suspicious amount": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TotalSuspiciousAmount": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "aggregate suspicious amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall suspicious amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "total suspicious quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "total suspicious volume": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "total suspicious expanse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "total suspicious extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "total suspicious sum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total suspicious total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total suspicious aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "Flagged Amount Total": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "transactions_professional.customer_W_suspicious_trans": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Transactions_Professional",
+			          "ConceptualProperty": "CustomerWSuspiciousTrans"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customer W suspicious trans": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CustomerWSuspiciousTrans": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "client w suspicious trans": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "consumer w suspicious trans": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "user w suspicious trans": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "buyer w suspicious trans": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "patron w suspicious trans": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "purchaser w suspicious trans": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "shopper w suspicious trans": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "Flagged Transaction": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "date_table": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date_table"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date table": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Date_table": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "moment table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period table": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "date tabletop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "date bench": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date board": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date counter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date stand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date slab": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date desk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "date stall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "date_table.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date_table",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_table.date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date_table",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_table.date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date_table",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_table.date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date_table",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_table.date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date_table",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_table.date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date_table",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "date_table.year_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date_table",
+			          "ConceptualProperty": "YearMonth"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YearMonth": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "year mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "date_table.month_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Date_table",
+			          "ConceptualProperty": "MonthName"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MonthName": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "month nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "month tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "mth name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "Date": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "transactions_professional.monthly_transactions": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Transactions_Professional",
+			          "ConceptualProperty": "MonthlyTransactions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "monthly transactions": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MonthlyTransactions": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "transactions": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "monthly connection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "monthly relation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "connection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "relation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "monthly dealing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "monthly contact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "monthly communication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "monthly business": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "dealing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "transactions_professional.monthly_suspicious": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Transactions_Professional",
+			          "ConceptualProperty": "MonthlySuspicious"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "monthly suspicious": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MonthlySuspicious": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "PII_customer.customer_has_suspicious_flag": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "PII_Customers",
+			          "ConceptualProperty": "CustomerHasSuspiciousFlag"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customer has suspicious flag": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CustomerHasSuspiciousFlag": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "client has suspicious flag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "consumer has suspicious flag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "user has suspicious flag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "buyer has suspicious flag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "patron has suspicious flag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "purchaser has suspicious flag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "shopper has suspicious flag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "Flagged Transaction2": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "date_table_date_date_hierarchy_has_date_table_date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Date_table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "date_table.date.date_hierarchy"
+			          }
+			        },
+			        "date_table.date.quarter": {
+			          "Target": {
+			            "Entity": "date_table.date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "date_table.date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_quarters"
+			        }
+			      ]
+			    },
+			    "date_table_date_date_hierarchy_has_date_table_date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Date_table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "date_table.date.date_hierarchy"
+			          }
+			        },
+			        "date_table.date.year": {
+			          "Target": {
+			            "Entity": "date_table.date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "date_table.date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_years"
+			        }
+			      ]
+			    },
+			    "date_table_date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Date_table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table.date": {
+			          "Target": {
+			            "Entity": "date_table.date"
+			          }
+			        },
+			        "date_table.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "date_table.date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table.date"
+			            },
+			            "Object": {
+			              "Role": "date_table.date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dates_have_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "PII_customer_account_open_date_date_hierarchy_has_PII_customer_account_open_date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "PII_Customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "PII_customer.account_open_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "PII_customer.account_open_date.date_hierarchy"
+			          }
+			        },
+			        "PII_customer.account_open_date.day": {
+			          "Target": {
+			            "Entity": "PII_customer.account_open_date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "PII_customer.account_open_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "PII_customer.account_open_date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "account_open_date_hierarchies_have_account_open_days"
+			        }
+			      ]
+			    },
+			    "PII_customer_account_open_date_date_hierarchy_has_PII_customer_account_open_date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "PII_Customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "PII_customer.account_open_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "PII_customer.account_open_date.date_hierarchy"
+			          }
+			        },
+			        "PII_customer.account_open_date.month": {
+			          "Target": {
+			            "Entity": "PII_customer.account_open_date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "PII_customer.account_open_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "PII_customer.account_open_date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "account_open_date_hierarchies_have_account_open_months"
+			        }
+			      ]
+			    },
+			    "PII_customer_account_open_date_date_hierarchy_has_PII_customer_account_open_date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "PII_Customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "PII_customer.account_open_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "PII_customer.account_open_date.date_hierarchy"
+			          }
+			        },
+			        "PII_customer.account_open_date.quarter": {
+			          "Target": {
+			            "Entity": "PII_customer.account_open_date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "PII_customer.account_open_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "PII_customer.account_open_date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "account_open_date_hierarchies_have_account_open_quarters"
+			        }
+			      ]
+			    },
+			    "PII_customer_account_open_date_date_hierarchy_has_PII_customer_account_open_date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "PII_Customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "PII_customer.account_open_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "PII_customer.account_open_date.date_hierarchy"
+			          }
+			        },
+			        "PII_customer.account_open_date.year": {
+			          "Target": {
+			            "Entity": "PII_customer.account_open_date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "PII_customer.account_open_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "PII_customer.account_open_date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "account_open_date_hierarchies_have_account_open_years"
+			        }
+			      ]
+			    },
+			    "PII_customer_account_open_date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "PII_Customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "PII_customer.account_open_date": {
+			          "Target": {
+			            "Entity": "PII_customer.account_open_date"
+			          }
+			        },
+			        "PII_customer.account_open_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "PII_customer.account_open_date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "PII_customer.account_open_date"
+			            },
+			            "Object": {
+			              "Role": "PII_customer.account_open_date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "account_open_dates_have_account_open_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "PII_customer_dob_date_hierarchy_has_PII_customer_dob_day": {
+			      "Binding": {
+			        "ConceptualEntity": "PII_Customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "PII_customer.dob.date_hierarchy": {
+			          "Target": {
+			            "Entity": "PII_customer.dob.date_hierarchy"
+			          }
+			        },
+			        "PII_customer.dob.day": {
+			          "Target": {
+			            "Entity": "PII_customer.dob.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "PII_customer.dob.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "PII_customer.dob.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dob_date_hierarchy_have_dob_day"
+			        }
+			      ]
+			    },
+			    "PII_customer_dob_date_hierarchy_has_PII_customer_dob_month": {
+			      "Binding": {
+			        "ConceptualEntity": "PII_Customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "PII_customer.dob.date_hierarchy": {
+			          "Target": {
+			            "Entity": "PII_customer.dob.date_hierarchy"
+			          }
+			        },
+			        "PII_customer.dob.month": {
+			          "Target": {
+			            "Entity": "PII_customer.dob.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "PII_customer.dob.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "PII_customer.dob.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dob_date_hierarchy_have_dob_month"
+			        }
+			      ]
+			    },
+			    "PII_customer_dob_date_hierarchy_has_PII_customer_dob_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "PII_Customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "PII_customer.dob.date_hierarchy": {
+			          "Target": {
+			            "Entity": "PII_customer.dob.date_hierarchy"
+			          }
+			        },
+			        "PII_customer.dob.quarter": {
+			          "Target": {
+			            "Entity": "PII_customer.dob.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "PII_customer.dob.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "PII_customer.dob.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dob_date_hierarchy_have_dob_quarter"
+			        }
+			      ]
+			    },
+			    "PII_customer_dob_date_hierarchy_has_PII_customer_dob_year": {
+			      "Binding": {
+			        "ConceptualEntity": "PII_Customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "PII_customer.dob.date_hierarchy": {
+			          "Target": {
+			            "Entity": "PII_customer.dob.date_hierarchy"
+			          }
+			        },
+			        "PII_customer.dob.year": {
+			          "Target": {
+			            "Entity": "PII_customer.dob.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "PII_customer.dob.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "PII_customer.dob.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dob_date_hierarchy_have_dob_year"
+			        }
+			      ]
+			    },
+			    "PII_customer_dob_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "PII_Customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "PII_customer.dob": {
+			          "Target": {
+			            "Entity": "PII_customer.dob"
+			          }
+			        },
+			        "PII_customer.dob.date_hierarchy": {
+			          "Target": {
+			            "Entity": "PII_customer.dob.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "PII_customer.dob"
+			            },
+			            "Object": {
+			              "Role": "PII_customer.dob.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dob_have_dob_date_hierarchy"
+			        }
+			      ]
+			    },
+			    "transactions_professional_has_date_table": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Object": {
+			              "Role": "date_table"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_have_date_tables"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "transactions_professional"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_transactions_professionals"
+			        }
+			      ]
+			    },
+			    "transactions_professional_has_PII_customer": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "PII_customer": {
+			          "Target": {
+			            "Entity": "PII_customer"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Object": {
+			              "Role": "PII_customer"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_have_PII_customers"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "PII_customer"
+			            },
+			            "Object": {
+			              "Role": "transactions_professional"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "PII_customers_have_transactions_professionals"
+			        }
+			      ]
+			    },
+			    "PII_customer_has_customer_has_suspicious_flag": {
+			      "Binding": {
+			        "ConceptualEntity": "PII_Customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "PII_customer": {
+			          "Target": {
+			            "Entity": "PII_customer"
+			          }
+			        },
+			        "PII_customer.customer_has_suspicious_flag": {
+			          "Target": {
+			            "Entity": "PII_customer.customer_has_suspicious_flag"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "PII_customer"
+			            },
+			            "Object": {
+			              "Role": "PII_customer.customer_has_suspicious_flag"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "PII_customers_have_customer_has_suspicious_flag"
+			        }
+			      ]
+			    },
+			    "transactions_professional_has_monthly_suspicious": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "transactions_professional.monthly_suspicious": {
+			          "Target": {
+			            "Entity": "transactions_professional.monthly_suspicious"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Object": {
+			              "Role": "transactions_professional.monthly_suspicious"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_have_monthly_suspicious"
+			        }
+			      ]
+			    },
+			    "transactions_professional_has_monthly_transactions": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "transactions_professional.monthly_transactions": {
+			          "Target": {
+			            "Entity": "transactions_professional.monthly_transactions"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Object": {
+			              "Role": "transactions_professional.monthly_transactions"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_have_monthly_transactions"
+			        }
+			      ]
+			    },
+			    "date_table_has_month_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Date_table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        },
+			        "date_table.month_name": {
+			          "Target": {
+			            "Entity": "date_table.month_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "date_table.month_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_month_names"
+			        }
+			      ]
+			    },
+			    "date_table_has_year_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Date_table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        },
+			        "date_table.year_month": {
+			          "Target": {
+			            "Entity": "date_table.year_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "date_table.year_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_year_months"
+			        }
+			      ]
+			    },
+			    "date_table_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Date_table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table": {
+			          "Target": {
+			            "Entity": "date_table"
+			          }
+			        },
+			        "date_table.date": {
+			          "Target": {
+			            "Entity": "date_table.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table"
+			            },
+			            "Object": {
+			              "Role": "date_table.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_tables_have_dates"
+			        }
+			      ]
+			    },
+			    "transactions_professional_has_customer_W_suspicious_trans": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "transactions_professional.customer_W_suspicious_trans": {
+			          "Target": {
+			            "Entity": "transactions_professional.customer_W_suspicious_trans"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Object": {
+			              "Role": "transactions_professional.customer_W_suspicious_trans"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_have_customer_W_suspicious_trans"
+			        }
+			      ]
+			    },
+			    "transactions_professional_has_total_suspicious_volume": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "transactions_professional.total_suspicious_volume": {
+			          "Target": {
+			            "Entity": "transactions_professional.total_suspicious_volume"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Object": {
+			              "Role": "transactions_professional.total_suspicious_volume"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_have_total_suspicious_amount"
+			        }
+			      ]
+			    },
+			    "transactions_professional_has_suspicious_transaction_count": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "transactions_professional.suspicious_transaction_count": {
+			          "Target": {
+			            "Entity": "transactions_professional.suspicious_transaction_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Object": {
+			              "Role": "transactions_professional.suspicious_transaction_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_have_suspicious_transaction_count"
+			        }
+			      ]
+			    },
+			    "transactions_professional_has_cross_border": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "transactions_professional.cross_border": {
+			          "Target": {
+			            "Entity": "transactions_professional.cross_border"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Object": {
+			              "Role": "transactions_professional.cross_border"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_have_cross_border"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Prepositions": [
+			              {
+			                "cross": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "transactions_professional.cross_border"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_are_cross_cross_border"
+			        }
+			      ]
+			    },
+			    "PII_customer_has_account_open_date": {
+			      "Binding": {
+			        "ConceptualEntity": "PII_Customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "PII_customer": {
+			          "Target": {
+			            "Entity": "PII_customer"
+			          }
+			        },
+			        "PII_customer.account_open_date": {
+			          "Target": {
+			            "Entity": "PII_customer.account_open_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "PII_customer"
+			            },
+			            "Object": {
+			              "Role": "PII_customer.account_open_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "PII_customers_have_account_open_dates"
+			        }
+			      ]
+			    },
+			    "PII_customer_has_risk_score": {
+			      "Binding": {
+			        "ConceptualEntity": "PII_Customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "PII_customer": {
+			          "Target": {
+			            "Entity": "PII_customer"
+			          }
+			        },
+			        "PII_customer.risk_score": {
+			          "Target": {
+			            "Entity": "PII_customer.risk_score"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "PII_customer"
+			            },
+			            "Object": {
+			              "Role": "PII_customer.risk_score"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "PII_customers_have_risk_scores"
+			        }
+			      ]
+			    },
+			    "PII_customer_has_country": {
+			      "Binding": {
+			        "ConceptualEntity": "PII_Customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "PII_customer": {
+			          "Target": {
+			            "Entity": "PII_customer"
+			          }
+			        },
+			        "PII_customer.country": {
+			          "Target": {
+			            "Entity": "PII_customer.country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "PII_customer"
+			            },
+			            "Object": {
+			              "Role": "PII_customer.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "PII_customers_have_countries"
+			        }
+			      ]
+			    },
+			    "PII_customer_has_dob": {
+			      "Binding": {
+			        "ConceptualEntity": "PII_Customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "PII_customer": {
+			          "Target": {
+			            "Entity": "PII_customer"
+			          }
+			        },
+			        "PII_customer.dob": {
+			          "Target": {
+			            "Entity": "PII_customer.dob"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "PII_customer"
+			            },
+			            "Object": {
+			              "Role": "PII_customer.dob"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "PII_customers_have_dob"
+			        }
+			      ]
+			    },
+			    "PII_customer_has_full_name": {
+			      "Binding": {
+			        "ConceptualEntity": "PII_Customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "PII_customer": {
+			          "Target": {
+			            "Entity": "PII_customer"
+			          }
+			        },
+			        "PII_customer.full_name": {
+			          "Target": {
+			            "Entity": "PII_customer.full_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "PII_customer"
+			            },
+			            "Object": {
+			              "Role": "PII_customer.full_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "PII_customers_have_full_names"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "PII_customer"
+			            },
+			            "Name": {
+			              "Role": "PII_customer.full_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "full_names_are_names_IDs_of_PII_customers"
+			        }
+			      ]
+			    },
+			    "PII_customer_has_account_number": {
+			      "Binding": {
+			        "ConceptualEntity": "PII_Customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "PII_customer": {
+			          "Target": {
+			            "Entity": "PII_customer"
+			          }
+			        },
+			        "PII_customer.account_number": {
+			          "Target": {
+			            "Entity": "PII_customer.account_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "PII_customer"
+			            },
+			            "Object": {
+			              "Role": "PII_customer.account_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "PII_customers_have_account_numbers"
+			        }
+			      ]
+			    },
+			    "transactions_professional_has_total_suspicious_flag_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "transactions_professional.total_suspicious_flag_2": {
+			          "Target": {
+			            "Entity": "transactions_professional.total_suspicious_flag_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Object": {
+			              "Role": "transactions_professional.total_suspicious_flag_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_have_total_suspicious_flag_2"
+			        }
+			      ]
+			    },
+			    "transactions_professional_has_suspicious_flag": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "transactions_professional.suspicious_flag": {
+			          "Target": {
+			            "Entity": "transactions_professional.suspicious_flag"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Object": {
+			              "Role": "transactions_professional.suspicious_flag"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_have_suspicious_flags"
+			        }
+			      ]
+			    },
+			    "transactions_professional_has_remark": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "transactions_professional.remark": {
+			          "Target": {
+			            "Entity": "transactions_professional.remark"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Object": {
+			              "Role": "transactions_professional.remark"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_have_remarks"
+			        }
+			      ]
+			    },
+			    "transactions_professional_has_channel": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "transactions_professional.channel": {
+			          "Target": {
+			            "Entity": "transactions_professional.channel"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Object": {
+			              "Role": "transactions_professional.channel"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_have_channels"
+			        }
+			      ]
+			    },
+			    "transactions_professional_has_receiver_currency": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "transactions_professional.receiver_currency": {
+			          "Target": {
+			            "Entity": "transactions_professional.receiver_currency"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Object": {
+			              "Role": "transactions_professional.receiver_currency"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_have_receiver_currencies"
+			        }
+			      ]
+			    },
+			    "transactions_professional_has_payment_currency": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "transactions_professional.payment_currency": {
+			          "Target": {
+			            "Entity": "transactions_professional.payment_currency"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Object": {
+			              "Role": "transactions_professional.payment_currency"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_have_payment_currencies"
+			        }
+			      ]
+			    },
+			    "transactions_professional_has_receiver_bank_country": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "transactions_professional.receiver_bank_country": {
+			          "Target": {
+			            "Entity": "transactions_professional.receiver_bank_country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Object": {
+			              "Role": "transactions_professional.receiver_bank_country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_have_receiver_bank_countries"
+			        }
+			      ]
+			    },
+			    "transactions_professional_has_sender_bank_country": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "transactions_professional.sender_bank_country": {
+			          "Target": {
+			            "Entity": "transactions_professional.sender_bank_country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Object": {
+			              "Role": "transactions_professional.sender_bank_country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_have_sender_bank_countries"
+			        }
+			      ]
+			    },
+			    "transactions_professional_has_payment_type": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "transactions_professional.payment_type": {
+			          "Target": {
+			            "Entity": "transactions_professional.payment_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Object": {
+			              "Role": "transactions_professional.payment_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_have_payment_types"
+			        }
+			      ]
+			    },
+			    "transactions_professional_has_amount": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "transactions_professional.amount": {
+			          "Target": {
+			            "Entity": "transactions_professional.amount"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Object": {
+			              "Role": "transactions_professional.amount"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_have_amounts"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "transactions_professional.amount"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "amount_indicates_how_expensive_transactions_professionals_are"
+			        }
+			      ]
+			    },
+			    "transactions_professional_has_receiver_account_number": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "transactions_professional.receiver_account_number": {
+			          "Target": {
+			            "Entity": "transactions_professional.receiver_account_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Object": {
+			              "Role": "transactions_professional.receiver_account_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_have_receiver_account_numbers"
+			        }
+			      ]
+			    },
+			    "transactions_professional_has_transaction_datetime": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "transactions_professional.transaction_datetime": {
+			          "Target": {
+			            "Entity": "transactions_professional.transaction_datetime"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Object": {
+			              "Role": "transactions_professional.transaction_datetime"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_have_transaction_datetimes"
+			        }
+			      ]
+			    },
+			    "transactions_professional_has_transaction_id": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "transactions_professional.transaction_id": {
+			          "Target": {
+			            "Entity": "transactions_professional.transaction_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Object": {
+			              "Role": "transactions_professional.transaction_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_have_transaction_ids"
+			        }
+			      ]
+			    },
+			    "PII_customer_in_country": {
+			      "Binding": {
+			        "ConceptualEntity": "PII_Customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "PII_customer": {
+			          "Target": {
+			            "Entity": "PII_customer"
+			          }
+			        },
+			        "PII_customer.country": {
+			          "Target": {
+			            "Entity": "PII_customer.country"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "PII_customer.country"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "PII_customer"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "PII_customer.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "PII_customers_are_in_countries"
+			        }
+			      ]
+			    },
+			    "transactions_professional_in_receiver_bank_country": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "transactions_professional.receiver_bank_country": {
+			          "Target": {
+			            "Entity": "transactions_professional.receiver_bank_country"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "transactions_professional.receiver_bank_country"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "transactions_professional.receiver_bank_country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_are_in_receiver_bank_countries"
+			        }
+			      ]
+			    },
+			    "transactions_professional_in_sender_bank_country": {
+			      "Binding": {
+			        "ConceptualEntity": "Transactions_Professional"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "transactions_professional": {
+			          "Target": {
+			            "Entity": "transactions_professional"
+			          }
+			        },
+			        "transactions_professional.sender_bank_country": {
+			          "Target": {
+			            "Entity": "transactions_professional.sender_bank_country"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "transactions_professional.sender_bank_country"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "transactions_professional"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "transactions_professional.sender_bank_country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transactions_professionals_are_in_sender_bank_countries"
+			        }
+			      ]
+			    },
+			    "PII_customer_is_born_on_dob": {
+			      "Binding": {
+			        "ConceptualEntity": "PII_Customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "PII_customer": {
+			          "Target": {
+			            "Entity": "PII_customer"
+			          }
+			        },
+			        "PII_customer.dob": {
+			          "Target": {
+			            "Entity": "PII_customer.dob"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "PII_customer.dob"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "bear": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "PII_customer"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "PII_customers_are_born_on_dob"
+			        }
+			      ]
+			    },
+			    "PII_customer_is_opened_on_account_open_date": {
+			      "Binding": {
+			        "ConceptualEntity": "PII_Customers"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "PII_customer": {
+			          "Target": {
+			            "Entity": "PII_customer"
+			          }
+			        },
+			        "PII_customer.account_open_date": {
+			          "Target": {
+			            "Entity": "PII_customer.account_open_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "PII_customer.account_open_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "open": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "PII_customer"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "PII_customers_are_opened_on_account_open_dates"
+			        }
+			      ]
+			    },
+			    "date_table_date_date_hierarchy_has_date_table_date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Date_table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "date_table.date.date_hierarchy"
+			          }
+			        },
+			        "date_table.date.month": {
+			          "Target": {
+			            "Entity": "date_table.date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "date_table.date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_months"
+			        }
+			      ]
+			    },
+			    "date_table_date_date_hierarchy_has_date_table_date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Date_table"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "date_table.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "date_table.date.date_hierarchy"
+			          }
+			        },
+			        "date_table.date.day": {
+			          "Target": {
+			            "Entity": "date_table.date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "date_table.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "date_table.date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_days"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.0.0"
+			    }
+			  }
+			}
+		contentType: json
+

@@ -1,0 +1,189 @@
+table Transactions_Professional
+	lineageTag: eb4d821d-83ba-4d64-9f41-dd6788edebdd
+
+	measure TotalSuspiciousFlag2 = CALCULATE(COUNTROWS(Transactions_Professional),Transactions_Professional[SuspiciousFlag] = "Yes")
+		formatString: 0
+		lineageTag: b5620ac9-6baf-4a53-a096-fff7fd0946ad
+
+	measure SuspiciousTransactionCount =
+			
+			CALCULATE(
+			    COUNTROWS(Transactions_Professional),
+			    Transactions_Professional[SuspiciousFlag] = "Yes"
+			)
+		formatString: #,0
+		lineageTag: 2e69f9a7-bf9d-4fbf-836d-2b3c1b2c3387
+
+	measure TotalSuspiciousAmount =
+			
+			CALCULATE(
+			    SUM(Transactions_Professional[amount]),
+			    Transactions_Professional[SuspiciousFlag] = "Yes"
+			)
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: fa72cae0-76f8-469b-8fa7-80d3c9e61301
+
+	measure CustomerWSuspiciousTrans =
+			
+			IF([SuspiciousTransactionCount] > 0, "Yes", "No")
+		lineageTag: 4306323f-12d5-4346-a4b2-1067aedb3865
+
+	measure MonthlyTransactions =
+			
+			CALCULATE(
+			    COUNTROWS(Transactions_Professional),
+			    USERELATIONSHIP(Date_table[Date], Transactions_Professional[transaction_datetime])
+			)
+		formatString: 0
+		lineageTag: 1b3a488a-da9d-4017-9a2b-029f4aeb2416
+
+	measure MonthlySuspicious =
+			
+			CALCULATE(
+			    COUNTROWS(Transactions_Professional),
+			    Transactions_Professional[SuspiciousFlag] = "Yes",
+			    USERELATIONSHIP(Date_table[Date], Transactions_Professional[transaction_datetime])
+			)
+		formatString: 0
+		lineageTag: 9800bd59-1652-4520-9286-0827ea7906c0
+
+	column transaction_id
+		dataType: string
+		lineageTag: b4518ce4-bb9e-41ab-bb5a-8e0787588669
+		summarizeBy: none
+		sourceColumn: transaction_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column transaction_datetime
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 7e2eba84-2350-42ab-8f6a-d263c543def0
+		summarizeBy: none
+		sourceColumn: transaction_datetime
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column sender_account_number
+		dataType: int64
+		formatString: 0
+		lineageTag: 5a68c08e-9a7f-4526-a0c4-11df956f4816
+		summarizeBy: none
+		sourceColumn: sender_account_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column receiver_account_number
+		dataType: int64
+		formatString: 0
+		lineageTag: 1f0e8c9f-af64-48c0-b859-c7165c42af1d
+		summarizeBy: sum
+		sourceColumn: receiver_account_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column amount
+		dataType: double
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: 952ad580-368a-4e03-9633-8a8ac9675337
+		summarizeBy: sum
+		sourceColumn: amount
+
+		annotation SummarizationSetBy = Automatic
+
+	column payment_type
+		dataType: string
+		lineageTag: c031f03c-792f-4086-ad15-ec4a17a041e4
+		summarizeBy: none
+		sourceColumn: payment_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column sender_bank_country
+		dataType: string
+		lineageTag: 3b7ffbf1-3ff0-4973-8bb4-af72e6a71ca9
+		summarizeBy: none
+		sourceColumn: sender_bank_country
+
+		annotation SummarizationSetBy = Automatic
+
+	column receiver_bank_country
+		dataType: string
+		lineageTag: 8549dd11-148c-409f-b865-b9c08ef5d5b5
+		summarizeBy: none
+		sourceColumn: receiver_bank_country
+
+		annotation SummarizationSetBy = Automatic
+
+	column payment_currency
+		dataType: string
+		lineageTag: f88758f6-e82e-4f81-be65-5860a012ed6b
+		summarizeBy: none
+		sourceColumn: payment_currency
+
+		annotation SummarizationSetBy = Automatic
+
+	column receiver_currency
+		dataType: string
+		lineageTag: a8879380-de83-4fa0-bc96-0077fd62a2d3
+		summarizeBy: none
+		sourceColumn: receiver_currency
+
+		annotation SummarizationSetBy = Automatic
+
+	column channel
+		dataType: string
+		lineageTag: c38b9d4b-96cd-454b-8811-1c4be19af8dd
+		summarizeBy: none
+		sourceColumn: channel
+
+		annotation SummarizationSetBy = Automatic
+
+	column remarks
+		dataType: string
+		lineageTag: af40bca8-5992-4a35-ad0c-9e28f1e16d7b
+		summarizeBy: none
+		sourceColumn: remarks
+
+		annotation SummarizationSetBy = Automatic
+
+	column SuspiciousFlag =
+			IF (Transactions_Professional[amount] > 10000 &&
+			    Transactions_Professional[receiver_currency] IN {"CYN", "TRY", "AED", "MAD"} &&
+			    Transactions_Professional[payment_type] IN {"debit_card"}, "Yes", "No")
+		lineageTag: f2c4e772-2de4-4330-8316-2704253544a8
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column CrossBorder = ```
+			IF (
+			    Transactions_Professional[sender_bank_country] <> Transactions_Professional[receiver_bank_country],
+			    "Cross-Border", 
+			    "Domestic"
+			)
+			```
+		lineageTag: 7c6800fb-3bec-4825-8091-940d39fcc725
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Transactions_Professional = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\aemil\Downloads\Transactions_Professional.csv"),[Delimiter=",", Columns=12, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"transaction_id", type text}, {"transaction_datetime", type datetime}, {"sender_account_number", Int64.Type}, {"receiver_account_number", Int64.Type}, {"amount", type number}, {"payment_type", type text}, {"sender_bank_country", type text}, {"receiver_bank_country", type text}, {"payment_currency", type text}, {"receiver_currency", type text}, {"channel", type text}, {"remarks", type text}}),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Changed Type",{{"transaction_datetime", type date}})
+				in
+				    #"Changed Type1"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Transaction Analysis"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "6e0b0a67-caa4-403e-b51c-f730c473532e"
+  }
+}

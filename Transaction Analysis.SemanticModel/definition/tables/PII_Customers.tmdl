@@ -1,0 +1,104 @@
+table PII_Customers
+	lineageTag: 5ebd90b1-d782-4d88-b094-3d6b48b23339
+
+	column account_number
+		dataType: int64
+		formatString: 0
+		lineageTag: eeca010e-d488-4970-9c16-c9419c02774b
+		summarizeBy: none
+		sourceColumn: account_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column full_name
+		dataType: string
+		lineageTag: 46f7bfa0-7a3c-48f0-b19e-47ebb22dbf5f
+		summarizeBy: none
+		sourceColumn: full_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column dob
+		dataType: dateTime
+		formatString: mmmm-dd-yy
+		lineageTag: c2647e8a-cff3-4947-9b05-e7f7fd351322
+		summarizeBy: none
+		sourceColumn: dob
+
+		variation Variation
+			isDefault
+			relationship: 1867b7d1-029f-44d5-90b1-484ee8e801f4
+			defaultHierarchy: LocalDateTable_bdb070ba-a30a-4407-a80d-826ca46c2500.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column country
+		dataType: string
+		lineageTag: 490d4010-ea80-495e-9486-0a197bffbf4d
+		summarizeBy: none
+		sourceColumn: country
+
+		annotation SummarizationSetBy = Automatic
+
+	column risk_score
+		dataType: int64
+		formatString: 0
+		lineageTag: c5e08813-67f3-40a3-8e25-a4917d64d58e
+		summarizeBy: sum
+		sourceColumn: risk_score
+
+		annotation SummarizationSetBy = Automatic
+
+	column account_open_date
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: 38abf48e-252b-48ae-aad6-6189c9e1f733
+		summarizeBy: none
+		sourceColumn: account_open_date
+
+		variation Variation
+			isDefault
+			relationship: ae317926-6385-41e9-905e-38e2c60681f0
+			defaultHierarchy: LocalDateTable_a5ba1c9f-241f-4865-92d1-f7ba97a10a46.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column CustomerHasSuspiciousFlag =
+			
+			VAR ThisAccount = PII_Customers[account_number]
+			VAR SuspiciousTransCount =
+			    CALCULATE(
+			        COUNTROWS(Transactions_Professional),
+			        FILTER(
+			            Transactions_Professional,
+			            Transactions_Professional[sender_account_number] = ThisAccount &&
+			            Transactions_Professional[SuspiciousFlag] = "Yes"
+			        )
+			    )
+			RETURN
+			IF(SuspiciousTransCount > 0, "Yes", "No")
+		lineageTag: 03ccc7bd-9417-43ef-af90-d8b819718a57
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition PII_Customers = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\aemil\Downloads\PII_Customers.csv"),[Delimiter=",", Columns=6, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"account_number", Int64.Type}, {"full_name", type text}, {"dob", type date}, {"country", type text}, {"risk_score", Int64.Type}, {"account_open_date", type date}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

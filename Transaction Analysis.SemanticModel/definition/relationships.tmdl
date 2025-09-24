@@ -1,0 +1,28 @@
+relationship 1867b7d1-029f-44d5-90b1-484ee8e801f4
+	joinOnDateBehavior: datePartOnly
+	fromColumn: PII_Customers.dob
+	toColumn: LocalDateTable_bdb070ba-a30a-4407-a80d-826ca46c2500.Date
+
+relationship ae317926-6385-41e9-905e-38e2c60681f0
+	joinOnDateBehavior: datePartOnly
+	fromColumn: PII_Customers.account_open_date
+	toColumn: LocalDateTable_a5ba1c9f-241f-4865-92d1-f7ba97a10a46.Date
+
+relationship 57160d32-f211-fe1a-1737-ca2ec0178065
+	isActive: false
+	fromColumn: Transactions_Professional.receiver_account_number
+	toColumn: PII_Customers.account_number
+
+relationship fa52cb8e-e594-c241-48aa-6add77ca8c82
+	fromColumn: Transactions_Professional.sender_account_number
+	toColumn: PII_Customers.account_number
+
+relationship c93650e1-e650-4bf2-a4d1-c1f906e53b39
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Date_table.Date
+	toColumn: LocalDateTable_d580d02f-f781-4ff7-978a-ce0294149dbf.Date
+
+relationship 342c1349-3f9d-a943-36bc-abb200fd1457
+	fromColumn: Transactions_Professional.transaction_datetime
+	toColumn: Date_table.Date
+
